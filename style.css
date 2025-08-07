@@ -1,0 +1,42 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fb;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #4A90E2;
+  color: white;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+.selector {
+  margin-bottom: 1.5rem;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#imageDisplay img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-top: 1rem;
+}
+
+footer {
+  background: #f0f0f0;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #666;
+}

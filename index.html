@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dactylology - Sign Language Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Dactylology</h1>
+    <p>Real-time Sign Language Word Visualizer</p>
+  </header>
+
+  <main>
+    <div class="selector">
+      <label for="wordSelect">Choose a word:</label>
+      <select id="wordSelect">
+        <option value="">-- Select a word --</option>
+        <option value="hello">Hello</option>
+        <option value="goodbye">Goodbye</option>
+        <option value="love">Love</option>
+        <option value="baby">Baby</option>
+        <option value="friend">Friend</option>
+        <!-- Add more options as needed -->
+      </select>
+    </div>
+
+    <div id="imageDisplay">
+      <p>Select a word to see its sign language image.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Created by Nayu | Science & Tech Exhibition Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
